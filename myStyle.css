@@ -317,12 +317,26 @@ a{
     color: darkgrey;
 }
 
+.menu{
+    list-style: none;
+
+    font-family: 'Escoredream';
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
 
 
 
 @media(max-width:768px){
 
+.menu{
+    list-style: none;
 
+    font-family: 'Escoredream';
+    font-weight: 200;
+    font-size: 1.2rem;
+}
 
     .ppppppp{
     font-family: 'BonmyeongjoSourceHanSerif';
@@ -696,4 +710,5 @@ a{
 
 
 }
+
 
