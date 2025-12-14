@@ -1,0 +1,699 @@
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BonmyeongjoSourceHanSerif';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+#container{
+    margin: 0 auto;
+    display: flex;
+
+}
+
+#mainContents{
+
+    width: 100%;
+    background-color: #f7f6f3;
+    overflow-x: inherit;
+    overflow-y: visible;
+
+}
+
+
+.row{
+    width: 100%;
+    display:flex;
+}
+
+.center{
+
+    width: 100%;
+    display:flex;
+    justify-content: center;
+
+}
+
+.end{
+
+    width: 100%;
+    display:flex;
+    justify-content:right;
+    
+}
+
+.box1{
+
+width: 100%;
+display: flex; 
+/*background-color: #0008ff;*/
+
+}
+
+.box2{
+
+width: 100%;
+display: flex; 
+/*background-color: #00ff62;*/
+
+}
+
+.line{
+    border-bottom: 3px solid black;
+    width: 100%;
+}
+
+
+.back-box{
+    background-color: white;
+    width: 100px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-left:none;
+
+    padding: 0.4rem;
+     
+    justify-content:right;
+}
+
+.back-box1{
+    background-color: white;
+    width: 100px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-right:none;
+
+    padding-top: 0.4rem;
+    padding-bottom:0.4rem;
+         
+    justify-content:left;
+}
+
+
+.buy-box{
+    width: 100%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-left: #6c93d4 4px solid;
+
+    padding: 0.8rem;
+
+    display: flex;         
+    align-items: center;    
+    justify-content: center;
+}
+
+.size-top{
+    width: 100%;
+    object-fit: contain;
+}
+
+.size-topBox{
+    width: 100%;
+}
+
+.size-logo{
+    width: 100%;
+    object-fit: contain;
+}
+
+.size-logoBox{
+    width: 100%;
+}
+
+.up-logo{
+    position: absolute;
+    top:40px;
+}
+
+.size-book{
+    width: 100%;
+    object-fit: contain;
+}
+
+.size-bookBox{
+    width: 100%;
+    
+    margin-top: -80px;
+    
+}
+
+.up{
+    position: absolute;
+    top:120px;
+}
+
+.bg-white{background-color: white;}
+
+.col1{width: 8.3%; }
+.col2{width: 16.6%; }
+.col3{width: 24.9%; }
+.col4{width: 33.2%; }
+.col5{width: 41.5%;}
+.col6{width: 49.8%;}
+.col7{width: 58.1%;}
+.col8{width: 66.4%; }
+.col9{width: 74.7%;}
+.col10{width: 83%; }
+.col11{width: 91.3%;}
+.col12{width: 100%; }
+
+.h-10{height:10px;}
+.h-20{height:20px;}
+.h-30{height:30px;}
+.h-40{height:40px;}
+.h-50{height:50px;}
+.h-80{height:80px;}
+.h-100{height:100px;}
+.h-200{height:200px;}
+.h-400{height:400px;}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.title1{
+    font-family: 'Escoredream';
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.text-1{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+
+.title2{
+    font-family: 'Escoredream';
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.title3{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+.title3-1{
+    font-family: 'Escoredream';
+    font-weight: 200;
+    font-size: 1.8rem;
+}
+
+.title3-2{
+    font-family: 'Escoredream';
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.title3-3{
+    font-family: 'Escoredream';
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.title3-4{
+    font-family: 'Escoredream';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.text-3{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.text-back{
+    font-family: 'Escoredream';
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+
+.ppppppp{
+    font-family: 'BonmyeongjoSourceHanSerif';
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.text-gray{
+    color: darkgrey;
+}
+
+
+
+
+@media(max-width:768px){
+
+
+
+    .ppppppp{
+    font-family: 'BonmyeongjoSourceHanSerif';
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.text-gray{
+    color: darkgrey;
+}
+
+
+    
+#container{
+    margin: 0 auto;
+    display: flex;
+
+}
+
+#mainContents{
+
+    width: 100%;
+    background-color: #f7f6f3;
+    overflow-x: hidden;
+  
+
+}
+
+
+.row{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.row2{
+    width: 100%;
+    display:flex;
+
+
+}
+
+
+
+.center{
+
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center2{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.end{
+
+    width: 100%;
+    display:flex;
+    justify-content:right;
+    
+}
+
+.box1{
+
+width: 100%;
+display: flex; 
+/*background-color: #0008ff;*/
+
+}
+
+.box2{
+
+width: 100%;
+display: flex; 
+
+/*background-color: #00ff62;*/
+
+}
+
+
+
+.line{
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+
+.back-box{
+    background-color: white;
+    width: 80px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-left:none;
+     
+    justify-content:right;
+    
+}
+
+.back-box1{
+    background-color: white;
+    width:100px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-right:none;
+       
+    justify-content:left;
+}
+
+
+.buy-box{
+    width: 200px;
+    border: 0.3px;
+    border-style: solid;
+    border-color: black;
+    border-left: #6c93d4 4px solid;
+
+    display: flex;     
+    align-items: center;    
+    justify-content: center;
+    
+}
+
+.size-top{
+    width: 80%;
+    object-fit: contain;
+}
+
+.size-topBox{
+    width: 300%;
+}
+
+.size-logo{
+    width: 100%;
+    object-fit: contain;
+}
+
+.size-logoBox{
+    width: 100%;
+}
+
+.up-logo{
+    position: absolute;
+    top:10px;
+}
+
+.size-book{
+    width: 280px;
+    display: block;
+    object-fit: contain;
+}
+
+.size-bookBox{
+    width: 55%;
+    display: block;
+    position: absolute;
+    top:270px;
+    left:40px;
+}
+
+.up-text1{
+    position: absolute;
+    top:60px;
+    left:40px;
+}
+
+.up-text2{
+    position: absolute;
+    top:90px;
+    left:40px;
+}
+
+.up-text3{
+    position: absolute;
+    top:150px;
+    left:40px;
+    
+}
+
+.up-text4{
+    position: absolute;
+    top:630px;
+    left: 40px;
+}
+
+.up-text5{
+    position: absolute;
+    top:790px;
+    left:40px;
+}
+
+.up-text6{
+    position: absolute;
+    top:820px;
+    left:40px;
+}
+
+
+.up-text7{
+    position: absolute;
+    top:850px;
+    left:40px;
+}
+
+.mov-text{
+    position: absolute;
+    left:40px
+}
+
+
+.up-box{
+    position: absolute;
+    top:900px;
+    left: 38px;
+}
+
+
+
+.up-line{
+    position: absolute;
+    top:770px;
+    left: 54px;
+}
+
+.up{
+    position: absolute;
+    top:10px;
+}
+
+
+.mov-left{
+
+    position: absolute;
+    left: 40px;
+
+}
+
+
+.bg-white{background-color: white;}
+
+.col1{width: 14%; }
+.col2{width: 20%; }
+.col3{width: 30%; }
+
+.col4{width: 80%; }
+
+.col5{width: 100%;}
+
+.col6{width: 35%;}
+.col7{width: 40%;}
+.col8{width: 80%; }
+
+.col9{width: 45%;}
+.col10{width: 70%; }
+.col11{width: 91.3%;}
+.col12{width: 70%; }
+
+.h-10{height:8px;}
+.h-20{height:12px;}
+.h-30{height:30px;}
+.h-40{height:40px;}
+.h-50{height:30px;}
+.h-80{height:80px;}
+.h-100{height:450px;}
+.h-200{height:100px;}
+.h-400{height:100px;}
+
+.h-m{height:180px;}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+.title1{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.text-1{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 0.7rem;
+}
+
+
+.title2{
+    font-family: 'Escoredream';
+    font-weight: 400;
+    font-size: 0.9rem;
+    
+}
+
+.title3{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 2.2rem;
+
+    color:white;
+
+}
+
+.title3-1{
+    font-family: 'Escoredream';
+    font-weight: 200;
+    font-size: 1.4rem;
+    color:white;
+}
+
+.title3-2{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 0.7rem;
+    color:white;
+}
+
+.title3-3{
+    font-family: 'Escoredream';
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.title3-4{
+    font-family: 'Escoredream';
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+.text-3{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 0.68rem;
+
+    text-align: justify;
+    
+}
+
+.text-back{
+    font-family: 'Escoredream';
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.none{display: none;}
+
+
+
+ .footer-pc .row{
+        flex-direction: row;
+    }
+
+    /* col 비율도 PC 기준으로 복구 */
+    .footer-pc .col2{ width: 16.6%; }
+    .footer-pc .col4{ width: 33.2%; }
+    .footer-pc .col12{ width: 100%; }
+
+
+
+}
+
